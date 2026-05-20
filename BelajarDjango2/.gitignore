@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local development database
+db.sqlite3
+db.sqlite3-journal
+
+# Virtual Environment (Sesuaikan dengan nama folder env kamu)
+venv/
+.venv/
+env/
+ENV/
+
+# Media and Static files (Jika upload file disimpan lokal)
+/media/
+/staticfiles/
+
+# JetBrains IDEs (PyCharm, VS Code, dll)
+.idea/
+.vscode/
+
+# Environment variables (File sensitif berisi password/secret key)
+.env
